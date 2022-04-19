@@ -36,11 +36,11 @@ def main():
                                   \033[90m╠╣  ║   ╠═╣ ║║║ ║╣   
                                   {Fore.RED}╚   ╩═╝ ╩ ╩ ╩ ╩ ╚═╝ 
 
-                        {Fore.RED}╔═════════════════════════════════╗
-                            \033[37mUser{Fore.RED}:    \033[37m[{Fore.RED}{username}\033[37m]
-                            \033[37mID{Fore.RED}:      \033[37m[{Fore.RED}{id}\033[37m]
-                            \033[37mGuilds{Fore.RED}:  \033[37m[{Fore.RED}{len(bot.gateway.session.guilds)}\033[37m]
-                        {Fore.RED}╚═════════════════════════════════╝
+                         {Fore.RED}╔═════════════════════════════════╗
+                             \033[37mUser{Fore.RED}:    \033[37m[{Fore.RED}{username}\033[37m]
+                             \033[37mID{Fore.RED}:      \033[37m[{Fore.RED}{id}\033[37m]
+                             \033[37mGuilds{Fore.RED}:  \033[37m[{Fore.RED}{len(bot.gateway.session.guilds)}\033[37m]
+                         {Fore.RED}╚═════════════════════════════════╝
             ''')
 
     @bot.gateway.command
