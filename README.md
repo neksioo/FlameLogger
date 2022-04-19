@@ -1,6 +1,5 @@
 # Flame Logger 🔥
 Message logger for discord made in discum with python, made for educational purposes only
-Make sure that you have python installed on your machine!
 
 # How to run program 🍱
 1. Download files from github
