@@ -4,10 +4,8 @@ import json
 import string   
 import random
 import os
-import time
 import datetime 
 
-from pypresence import Presence
 from colorama import Style, Fore, init
 from datetime import date
 from datetime import datetime
