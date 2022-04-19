@@ -4,7 +4,7 @@
 # How to run program 🍱
 ・Download files from github<br>
 ・Put them in the any folder<br>
-・Create in the folder named: "FlameLogger" that you put your files<br>
+・Create the folder named: "FlameLogger"in the folder that you just put your files<br>
 ・Run "installer.bat"<br>
 ・Put your token in "config.json"<br>
 ・Run "main.py", the files will be in FlameLogger folder<br>
