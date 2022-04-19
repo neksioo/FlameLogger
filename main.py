@@ -7,7 +7,6 @@ import os
 import time
 import datetime 
 
-from pypresence import Presence
 from colorama import Style, Fore, init
 from datetime import date
 from datetime import datetime
@@ -52,13 +51,13 @@ def main():
             username = m['author']['username']
             discriminator = m['author']['discriminator']
             content = m['content']
-            try:
-                guild = bot.gateway.session.guild(guildID)
-                guildName = guild.name
-                channel = bot.getChannel(channelID).json()
-                channelName = channel["name"]
-            except:
-                pass
+            try:                                            #|
+                guild = bot.gateway.session.guild(guildID)  #|
+                guildName = guild.name                      #|
+                channel = bot.getChannel(channelID).json()  #| pass because of direct message
+                channelName = channel["name"]               #|
+            except:                                         #|
+                pass                                        #|
                 
             now = datetime.now()
             current_time = now.strftime("%H:%M:%S")             
