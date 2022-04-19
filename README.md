@@ -2,12 +2,9 @@
 ・Message logger for discord made in discum with python, made for educational purposes only
 
 # How to run program 🍱
-・Download files from github<br>
-・Put them in the any folder<br>
-・Create the folder named: "FlameLogger"in the folder that you just put your files<br>
-・Run "installer.bat"<br>
-・Put your token in "config.json"<br>
-・Run "main.py", the files will be in FlameLogger folder<br>
+・Run installer.bat<br>
+・Put your token in config.json<br>
+・If you want to run FlameLogger run launcher.bat that created after running installer.bat<br>
 
 # Credits 📝
 
