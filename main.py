@@ -54,7 +54,7 @@ def main():
             try:                                            #|
                 guild = bot.gateway.session.guild(guildID)  #|
                 guildName = guild.name                      #|
-                channel = bot.getChannel(channelID).json()  #| pass because of direct message | i will try do add dms too
+                channel = bot.getChannel(channelID).json()  #| pass because of direct message | i will try to add dms too
                 channelName = channel["name"]               #|
             except:                                         #|
                 pass                                        #|
