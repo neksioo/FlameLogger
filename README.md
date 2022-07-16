@@ -13,9 +13,3 @@
 ・Made with help on stack overflow<br>
 ・Made with ❤<br>
 
-# Other 🍞
-・Go check DMD Go:<br>
-・https://github.com/V4NSH4J/discord-mass-DM-GO <br>
-・https://dsc.gg/dmdgo<br>
-・Go check Stealthy: <br>
-・https://github.com/Stealthy1337/StealthChecker
