@@ -44,4 +44,4 @@ start main.py
 set file="launcher.bat"
 echo @echo off> %file%
 echo start main.py>> %file%
-del setup.bat
+del installer.bat
